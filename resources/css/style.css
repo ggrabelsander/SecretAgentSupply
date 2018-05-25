@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h3 {
+  align-content: center;
+}
+.container{
+  display: flex;
+}
+.banner {
+  background-image: url("../images/moto.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+}
+.banner-message {
+  background-color: black;
+  position: relative;
+  padding: 20px 30px;
+}
