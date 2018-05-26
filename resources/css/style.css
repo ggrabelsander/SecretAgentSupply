@@ -30,8 +30,17 @@ header h3 {
 .nav {
   text-align: center;
   background-color: red;
-
 }
 .nav a{
 color: white;
+}
+.image-container {
+  background-color: white;
+}
+.product {
+  flex-direction: column;
+  display: flex;
+}
+.product img {
+  background-color: white;
 }
