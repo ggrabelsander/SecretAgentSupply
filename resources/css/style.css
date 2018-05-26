@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color: white;
+  font-family: Helvetica;
 }
 header {
   display: flex;
@@ -24,4 +25,13 @@ header h3 {
   background-color: black;
   position: relative;
   padding: 20px 30px;
+  width: 20em;
+}
+.nav {
+  text-align: center;
+  background-color: red;
+
+}
+.nav a{
+color: white;
 }
