@@ -120,13 +120,23 @@ footer {
   }
 }
 @media only screen and (max-width: 470px;){
+  .banner {
+    height: 15rem;
+  }
   .banner-message {
     padding: 1rem 2rem;
+    margin-top: 10rem;
   }
   .banner-message h4 {
     font-size: .77rem;
   }
   .banner-message h1{
     font-size: 1rem;
+  }
+  .product {
+    width: 90%;
+  }
+  #watch {
+    display: none;
   }
 }
