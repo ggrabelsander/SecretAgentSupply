@@ -20,7 +20,7 @@ header h3 {
   padding: .66rem .5rem;
 }
 .container{
-  display: flex
+  display: flex;
 }
 .banner {
   background-image: url("../images/moto.jpeg");
@@ -31,12 +31,12 @@ header h3 {
 }
 .banner-message {
   background-color: black;
-  position: relative;
   padding: 2rem 3rem;
   width: 20rem;
   margin-top: 9rem;
   font-weight: bold;
-
+  position: relative;
+  left: 9rem;
 }
 .banner-message h1 {
   font-size: 2rem;
@@ -47,6 +47,9 @@ nav {
   background-color: firebrick;
   padding: .75rem 0;
   justify-content: space-around;
+}
+nav .small-screen{
+  visibility: hidden;
 }
 .product-banner{
   background-color: white;
@@ -90,4 +93,37 @@ footer {
   text-align: left;
   justify-content: space-around;
   align-items: center;
+}
+@media only screen and (max-width: 1024px){
+  header {
+    justify-content: flex-start;
+  }
+  .banner-message {
+    left: 0;
+  }
+  nav {
+    justify-content: center;
+  }
+  nav span {
+    visibility: hidden;
+  }
+  .small-screen {
+    visibility: visible;
+    display:inline;
+    display: contents;
+  }
+  #glasses {
+    display: none;
+  }
+  .product {
+    width: 47%;
+  }
+}
+@media only screen and (max-width: 470px;){
+  .banner-message {
+    padding: 1rem 2rem;
+  }
+  .banner-message h4 {
+    font-size: .77rem;
+  }
 }
