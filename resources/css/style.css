@@ -119,7 +119,7 @@ footer {
     width: 47%;
   }
 }
-@media only screen and (max-width: 470px;){
+@media only screen and (max-width: 470px){
   .banner {
     height: 15rem;
   }
