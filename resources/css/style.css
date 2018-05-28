@@ -5,7 +5,6 @@ body {
   background-color: black;
   color: white;
   font-family: Helvetica;
-  width: 960px;
 }
 header {
   display: flex;
@@ -37,41 +36,58 @@ header h3 {
   width: 20rem;
   margin-top: 9rem;
   font-weight: bold;
+
 }
 .banner-message h1 {
   font-size: 2rem;
   padding-top: .25rem;
 }
-.nav {
+nav {
   text-align: center;
   background-color: firebrick;
   padding: .75rem 0;
+  justify-content: space-around;
 }
-.content-banner{
+.product-banner{
   background-color: white;
-}
-.image-container {
-  background-color: white;
-
 }
 .product {
-  flex-direction: column;
   display: flex;
   border: 4px solid black;
   width: 30%;
+  margin: 3rem auto;
+  flex-direction: column;
 }
 .product img {
   background-color: white;
   height: 9rem;
-  padding: 2rem 0;
+  margin: 2rem;
 }
 .product span {
   background-color: black;
+  text-align: center;
+}
+.info-banner{
+  background-color: white;
 }
 .info-item h5 {
   background-color: black;
-  color:white;
+  color: white;
+  padding: 1rem 2rem;
 }
 .info-item {
   color: black;
+  display: flex;
+  min-width: 35%;
+  display: block;
+  margin-bottom: 4rem;
+}
+.info-banner .container {
+  justify-content: space-around;
+}
+footer {
+  height: 5rem;
+  text-align: left;
+  justify-content: space-around;
+  align-items: center;
 }
