@@ -126,4 +126,7 @@ footer {
   .banner-message h4 {
     font-size: .77rem;
   }
+  .banner-message h1{
+    font-size: 1rem;
+  }
 }
